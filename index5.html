@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scope</title>
+</head>
+<body>
+    
+</body>
+<!-- ///////////////////////////////// -->
+<script>
+    var myfun ="man davra";
+
+    function  transform(){
+        var myfun ="davra";
+        console.log(myfun);
+    }
+
+    console.log(myfun);
+    transform();
+    console.log(myfun);
+</script>
+<!-- /////////////////////////////////// -->
+<script>
+    var year ="2006";
+
+    function transform(){
+        var number ="8140241212";
+        console.log(number);
+    }
+
+    console.log(year);
+    transform();
+    console.log(year);
+</script>
+<!-- ///////////////////////////////////// -->
+<script>
+    var car ="rolls royal";
+
+    function transform(){
+        var platnumber ="gj-2849";
+        console.log(platnumber);
+    }
+
+    console.log(car);
+    transform();
+    console.log(car);
+</script>
+<!-- ////////////////////////////////////// -->
+<script>
+    var watch ="rolex";
+
+    function transform(){
+        var price ="1,067,958";
+        console.log(price);
+    }
+
+    console.log(watch);
+    transform();
+    console.log(watch);
+</script>
+</html>
